@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class CustomColors
+public abstract class MaterialColors
 {
     // Red
     public static Color Red50 => new Color(1.000f, 0.921f, 0.933f);
