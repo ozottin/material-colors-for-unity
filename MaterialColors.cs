@@ -1,4 +1,6 @@
-public class MaterialColors
+using UnityEngine;
+
+public abstract class CustomColors
 {
     // Red
     public static Color Red50 => new Color(1.000f, 0.921f, 0.933f);
@@ -143,7 +145,7 @@ public class MaterialColors
     public static Color Lime700 => new Color(0.627f, 0.710f, 0.110f);
     public static Color Lime800 => new Color(0.541f, 0.604f, 0.090f);
     public static Color Lime900 => new Color(0.431f, 0.475f, 0.067f);
-    
+
     // Yellow
     public static Color Yellow50 => new Color(1.000f, 0.992f, 0.749f);
     public static Color Yellow100 => new Color(1.000f, 0.984f, 0.592f);
@@ -155,7 +157,7 @@ public class MaterialColors
     public static Color Yellow700 => new Color(0.984f, 0.820f, 0.098f);
     public static Color Yellow800 => new Color(0.976f, 0.753f, 0.086f);
     public static Color Yellow900 => new Color(0.961f, 0.620f, 0.063f);
-    
+
     // Amber
     public static Color Amber50 => new Color(1.000f, 0.969f, 0.616f);
     public static Color Amber100 => new Color(1.000f, 0.945f, 0.345f);
@@ -167,7 +169,7 @@ public class MaterialColors
     public static Color Amber700 => new Color(0.984f, 0.714f, 0.000f);
     public static Color Amber800 => new Color(0.976f, 0.651f, 0.000f);
     public static Color Amber900 => new Color(0.961f, 0.525f, 0.000f);
-    
+
     // Orange
     public static Color Orange50 => new Color(1.000f, 0.941f, 0.855f);
     public static Color Orange100 => new Color(1.000f, 0.875f, 0.710f);
