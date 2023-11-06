@@ -1,6 +1,4 @@
 using UnityEngine;
-
-namespace _Project.Scripts
 {
     public static class MaterialColors
     {
